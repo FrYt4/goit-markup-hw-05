@@ -91,6 +91,7 @@ padding: 120px 0;
 .link-two{
     text-decoration: none;
     display: block;
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-two:hover,
 .link-two:focus,
@@ -603,8 +604,8 @@ background-color:#404BBF;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.overlay-p:hover,
-.overlay-p:focus{
+.link-two:hover .overlay-p,
+.link-two:focus .overlay-p{
     transform: translateY(0%);
 }
 
