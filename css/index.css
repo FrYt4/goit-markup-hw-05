@@ -574,12 +574,14 @@ color:var(--brand-color-CLOUD);
     line-height: 1.2 ;
     letter-spacing: 0.02em ;
     margin-bottom: 8px;
+    text-decoration: none;
  }
 
 .project-text{
     font-size:16px;
     letter-spacing: 0.02em ;
     line-height: 1.5 ;
+    text-decoration: none;
 
 }
 .container-portfolio{
