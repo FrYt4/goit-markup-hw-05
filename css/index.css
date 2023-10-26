@@ -574,19 +574,21 @@ color:var(--brand-color-CLOUD);
     line-height: 1.2 ;
     letter-spacing: 0.02em ;
     margin-bottom: 8px;
+    text-decoration: none;
  }
 
 .project-text{
     font-size:16px;
     letter-spacing: 0.02em ;
     line-height: 1.5 ;
+    text-decoration: none;
 
 }
 .container-portfolio{
     padding: 32px 16px;
     border: 1px solid #E7E9FC;
     border-top: none;
-    text-decoration: none;
+
 }
 
 .overlay{
